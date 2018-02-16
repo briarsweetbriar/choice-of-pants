@@ -1,0 +1,75 @@
+@import "ember-lxl/ember-lxl";
+@import "ember-flex-menu/ember-flex-menu";
+@import "affinity-engine";
+@import "affinity-engine/base";
+@import "affinity-engine/plugin/icon/font-awesome";
+@import "affinity-engine/styles/block";
+@import "affinity-engine/styles/caption";
+@import "affinity-engine/styles/coastal";
+@import "affinity-engine/styles/full";
+@import "affinity-engine/styles/paper";
+@import "affinity-engine/styles/transparent";
+@import "affinity-engine/menu-bar";
+@import "affinity-engine/stage";
+@import "affinity-engine/stage/direction/image";
+@import "affinity-engine/stage/direction/menu";
+@import "affinity-engine/stage/direction/text";
+
+.liquid-engine {
+  height: 100%;
+  width: 100%;
+
+  .liquid-child {
+    height: 100% !important;
+  }
+}
+
+.ember-sequencer {
+  color: #fff;
+}
+
+.true-center {
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.made-by-affinity {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  img {
+    max-height: 68%;
+  }
+}
+
+.et-curtain, .ae-curtain, .ember-progress-bar {
+  height: 100%;
+}
+
+.engine-title {
+  position: absolute;
+  top: 38%;
+  font-size: 200%;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+
+.ember-progress-bar svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  margin-top: 1%;
+  color: #fff;
+}
