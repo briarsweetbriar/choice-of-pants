@@ -40,6 +40,10 @@
   flex-direction: column;
 }
 
+.margin-top-1 {
+  margin-top: 10px;
+}
+
 .made-by-affinity {
   cursor: pointer;
   display: block;
@@ -72,4 +76,8 @@
   height: 10px;
   margin-top: 1%;
   color: #fff;
+}
+
+.ae-stage {
+  background-color: #f7f7f7;
 }
